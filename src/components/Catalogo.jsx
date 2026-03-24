@@ -2,7 +2,7 @@ import { useState } from "react";
 import { productos } from "../data/productos";
 import CardProducto from "./CardProducto";
 
-const tipos = ["Todos", "Piano de Cola", "Piano Vertical", "Piano Digital"];
+const tipos = ["Todos", "Piano de Cola", "Piano Vertical"];
 
 export default function Catalogo() {
   const [filtro, setFiltro] = useState("Todos");

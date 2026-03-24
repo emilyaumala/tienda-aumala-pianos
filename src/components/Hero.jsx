@@ -1,6 +1,8 @@
 export default function Hero() {
   return (
-    <section className="pt-16 min-h-screen flex flex-col">
+    <section id="inicio" className="pt-16 min-h-screen flex flex-col">
+
+      {/* Imagen principal */}
       <div className="relative flex-1 min-h-screen bg-stone-100 overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1600&q=90"
@@ -20,25 +22,33 @@ export default function Hero() {
               <span className="font-semibold">perfecto para ti.</span>
             </h1>
             <p className="text-stone-600 text-lg leading-relaxed mb-10 font-light">
-              Cada instrumento Aumala está seleccionado para ofrecer la más alta expresión musical.
+              Cada instrumento Aumala está seleccionado para ofrecer la más alta expresión musical. Desde el estudiante hasta el concertista profesional.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-stone-900 text-white px-8 py-3.5 text-sm tracking-widest uppercase hover:bg-stone-700 transition-colors duration-300">
+              <a
+                href="#catalogo"
+                className="bg-stone-900 text-white px-8 py-3.5 text-sm tracking-widest uppercase hover:bg-stone-700 transition-colors duration-300 text-center"
+              >
                 Ver Catálogo
-              </button>
-              <button className="border border-stone-400 text-stone-700 px-8 py-3.5 text-sm tracking-widest uppercase hover:border-stone-900 hover:text-stone-900 transition-colors duration-300">
-                Nuestra Historia
-              </button>
+              </a>
+              <a
+                href="#servicios"
+                className="border border-stone-400 text-stone-700 px-8 py-3.5 text-sm tracking-widest uppercase hover:border-stone-900 hover:text-stone-900 transition-colors duration-300 text-center"
+              >
+                Nuestros Servicios
+              </a>
             </div>
           </div>
         </div>
 
+        {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
           <span className="text-stone-400 text-xs tracking-widest uppercase">Descubrir</span>
           <div className="w-px h-10 bg-stone-300 animate-pulse" />
         </div>
       </div>
 
+      {/* Stats bar */}
       <div className="bg-stone-900 text-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
