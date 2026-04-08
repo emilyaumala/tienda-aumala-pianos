@@ -20,13 +20,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-stone-200">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-
-         {/* Logo */}
+{/* Logo */}
 <a href="#inicio" className="flex items-center gap-3">
   <div className="w-8 h-8 flex items-center justify-center">
     <img 
-      src="/logo.png" 
-      alt="AUMALA Logo" 
+      src="https://res.cloudinary.com/dgnzr1i4p/image/upload/q_auto/f_auto/v1775681321/logo_ubpi21.png"
+      alt="AUMALA Logo"
       className="w-full h-full object-contain"
     />
   </div>
