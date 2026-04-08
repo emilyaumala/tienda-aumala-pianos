@@ -21,16 +21,20 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
 
-          {/* Logo */}
-          <a href="#inicio" className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-stone-900 flex items-center justify-center">
-              <span className="text-white text-xs font-bold tracking-widest">A</span>
-            </div>
-            <div>
-              <span className="text-stone-900 font-semibold text-base tracking-wide">AUMALA</span>
-              <span className="text-stone-400 text-xs tracking-widest block -mt-1 uppercase">Pianos</span>
-            </div>
-          </a>
+         {/* Logo */}
+<a href="#inicio" className="flex items-center gap-3">
+  <div className="w-8 h-8 flex items-center justify-center">
+    <img 
+      src="/logo.png" 
+      alt="AUMALA Logo" 
+      className="w-full h-full object-contain"
+    />
+  </div>
+  <div>
+    <span className="text-stone-900 font-semibold text-base tracking-wide">AUMALA</span>
+    <span className="text-stone-400 text-xs tracking-widest block -mt-1 uppercase">Pianos</span>
+  </div>
+</a>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
