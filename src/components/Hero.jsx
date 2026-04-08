@@ -5,9 +5,9 @@ export default function Hero() {
       {/* Imagen principal */}
       <div className="relative flex-1 min-h-screen bg-stone-100 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1600&q=90"
-          alt="Piano de cola Aumala"
-          className="w-full h-full object-cover object-center absolute inset-0 opacity-60"
+          src="https://res.cloudinary.com/dgnzr1i4p/image/upload/q_auto/f_auto/v1775678530/fondo_vn5qgq.jpg"
+          alt="Piano de cola"
+          className="w-full h-full object-cover object-center absolute inset-0 opacity-1000"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/70 to-transparent" />
 
@@ -22,7 +22,7 @@ export default function Hero() {
               <span className="font-semibold">perfecto para ti.</span>
             </h1>
             <p className="text-stone-600 text-lg leading-relaxed mb-10 font-light">
-              Cada instrumento Aumala está seleccionado para ofrecer la más alta expresión musical. Desde el estudiante hasta el concertista profesional.
+              Cada instrumento está seleccionado para ofrecer la más alta expresión musical. Desde el estudiante hasta el concertista profesional.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
